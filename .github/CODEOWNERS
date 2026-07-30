@@ -1,0 +1,24 @@
+# CODEOWNERS - Gobernanza & Seguridad
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Equipo de Arquitectura (requerido para todos los cambios)
+*.tf @your-github-username
+*.yaml @your-github-username
+
+# Infraestructura
+/terraform/ @your-github-username
+/kubernetes/ @your-github-username
+
+# Seguridad
+/security/ @your-github-username
+.rego @your-github-username
+
+# API Contracts
+/openapi/ @your-github-username
+/asyncapi/ @your-github-username
+/proto/ @your-github-username
+
+# Librerías Core
+/kotlin/ @your-github-username
+/go/ @your-github-username
+/typescript/ @your-github-username
